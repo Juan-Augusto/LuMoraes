@@ -1,0 +1,55 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+@font-face{
+		font-family: 'FonteLogo';
+		src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+div#cont{
+    position: relative;
+    margin-left: 350px;
+	width: 600px;	
+	background-color: #e39596;
+	padding: 5px;
+	margin-top: 70px;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+	margin-bottom: 50px;
+	border-radius: 10px;
+}
+div#cont h1{
+    font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #ffffff;
+	margin-bottom: 0px;
+	margin-top: 0px;
+    text-align: center;
+}
+img#igcont{
+    margin-top: 25px;
+    width: 100px;
+    margin-left: 110px;
+    padding: 1px;
+}
+img#wppcont{
+    float: right;
+    width: 125px;
+    margin-right: 90px;
+    padding: 1px;
+    margin-top: -182px;
+}
+h2#legendacont{
+    font-family: 'FonteLogo', sans-serif;
+	font-size: 20pt;
+	color: #fafafa;
+	margin-top: 10px;
+	margin-left: 50px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+h2#legendacont2{
+    float: right;
+    font-family: 'FonteLogo', sans-serif;
+	font-size: 19pt;
+	color: #fafafa;
+	margin-top: -53px;
+	margin-right: 60px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}

@@ -1,0 +1,362 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+	/*Formatação de imagens com lengendas*/
+figure.foto-legenda{
+		width: 810px;
+		position: relative;
+		border: 1px solid white;
+		box-shadow: 1px 1px 4px #ffffff;
+		margin-bottom: 50px;
+
+}	
+figure.foto-legenda img{
+		width: 100%;
+		height: 100%;
+}
+figure.foto-legenda2{
+		position: absolute;
+		width: 500px;
+		float: left;
+		border: 1px solid white;
+		box-shadow: 1px 1px 4px #ffffff;
+		margin-bottom: 100px;
+		left: 750px;
+
+}	
+figure.foto-legenda2 img{
+		width: 100%;
+		height: 100%;
+}
+
+ul#album-fotos{
+	margin-top: -40px;
+	float: left;
+	width: 1100px;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+ul#album-fotos h1#tituloloja{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	padding: 0px;
+	margin-top: 50px;
+	margin-bottom: -20px;
+	color: #ffffff;
+	background-color: #e39596;
+}
+ul#album-fotos h2#produto{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	padding: 0px;
+	margin-bottom: 0px;
+	color: #ffffff;
+}
+ul#album-fotos h3#produto{
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+	padding: 0px;
+	margin-bottom: 0x;
+	color: #ffffff;
+}
+ul#album-fotos li{
+	padding: 0px;
+	float: left;
+	width: 245px;
+	height: 245px;
+	margin: 10px;
+	margin-bottom: 20px;
+	border: 5px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow: 1px 2px 5px rgba(0,0,0,.5);
+	-webkit-transition: all .5s ease-in;
+	border-radius: 18px;
+	
+}
+ul#album-fotos li:hover{
+	-webkit-transform: scale(1.5);
+}
+ul#album-fotos li span{
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000;
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt;
+	line-height: 370px;
+	padding: 5px;
+}
+ul#album-fotos span{
+	opacity: 0;
+}
+ul#album-fotos li:hover span {
+	opacity: 1;
+}
+
+ul#album-fotos li#foto01 {
+	background: url('Imagens_projeto_LuMoraes/fotob (22).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto01:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+
+ul#album-fotos li#foto02 {
+	background: url('Imagens_projeto_LuMoraes/fotob (26).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+
+ul#album-fotos li#foto02:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+
+ul#album-fotos li#foto03 {
+	background: url('Imagens_projeto_LuMoraes/fotob (23).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto03:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto04 {
+	background: url('Imagens_projeto_LuMoraes/fotob4.jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto04:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto05 {
+	background: url('Imagens_projeto_LuMoraes/fotob4.jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto05:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto06 {
+	background: url('Imagens_projeto_LuMoraes/fotob5.jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto06:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto07 {
+	background: url('Imagens_projeto_LuMoraes/fotob6.jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto07:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto08 {
+	background: url('Imagens_projeto_LuMoraes/fotob7.jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto08:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto09 {
+	background: url('Imagens_projeto_LuMoraes/fotob8.jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto09:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto10 {
+	background: url('Imagens_projeto_LuMoraes/fotob (1).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto10:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto11 {
+	background: url('Imagens_projeto_LuMoraes/fotob (2).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto11:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto12 {
+	background: url('Imagens_projeto_LuMoraes/fotob (3).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto12:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto13 {
+	background: url('Imagens_projeto_LuMoraes/fotob (4).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto13:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto13 {
+	background: url('Imagens_projeto_LuMoraes/fotob (5).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto13:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto14 {
+	background: url('Imagens_projeto_LuMoraes/fotob (6).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto14:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto15 {
+	background: url('Imagens_projeto_LuMoraes/fotob (7).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto15:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto16 {
+	background: url('Imagens_projeto_LuMoraes/fotob (8).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto16:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto17 {
+	background: url('Imagens_projeto_LuMoraes/fotob (9).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto17:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto18 {
+	background: url('Imagens_projeto_LuMoraes/fotob (10).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto18:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto19 {
+	background: url('Imagens_projeto_LuMoraes/fotob (11).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto19:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto20 {
+	background: url('Imagens_projeto_LuMoraes/fotob (12).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto20:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto21 {
+	background: url('Imagens_projeto_LuMoraes/fotob (13).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto21:hover{
+	background-position: 0px 0px;
+	background-size: 280px 280px;
+}
+ul#album-fotos li#foto22 {
+	background: url('Imagens_projeto_LuMoraes/fotob (14).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto22:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto23 {
+	background: url('Imagens_projeto_LuMoraes/fotob (15).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto23:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto24 {
+	background: url('Imagens_projeto_LuMoraes/fotob (16).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto24:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto25 {
+	background: url('Imagens_projeto_LuMoraes/fotob (17).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto25:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto26 {
+	background: url('Imagens_projeto_LuMoraes/fotob (18).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto26:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto27 {
+	background: url('Imagens_projeto_LuMoraes/fotob (19).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto27:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+ul#album-fotos li#foto28 {
+	background: url('Imagens_projeto_LuMoraes/fotob (20).jpeg') no-repeat;
+	background-position: 0px 0px;
+	background-size: 245px 245px;
+}
+ul#album-fotos li#foto28:hover{
+	background-position: -25px 0px;
+	background-size: 270px 270px;
+}
+
+
+

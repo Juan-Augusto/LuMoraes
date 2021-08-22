@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>LuMoraes</title>
+		<link rel="stylesheet" href="estilolm.css"/>
+		<link rel="stylesheet" href="estilolojalm.css"/>
+		<link rel="stylesheet" href="estilopedido.css"/>
+</head>	
+<body>
+	<div id="interface">
+
+	<header id="cabecalho">
+	<img id="icone" src="Imagens_projeto_LuMoraes/nome.png"/>
+	
+	<nav id="menu">	
+		<h1>Menu Principal</h1>
+		<ul type="1"> 
+			<li><a href="ProjetoLuMoraes.html">Início</a></li>
+			<li><a href="loja.html">Loja</a></li>
+			<li><a href="facaseupedido.html">FAÇA SEU PEDIDO</a></li>
+			<li><a href="contato.html">Contato</a></li>
+			<li><a  href="https://api.whatsapp.com/send/?phone=5585999133873&text&app_absent=0" target="blank"><img id="wpp" src="Imagens_projeto_LuMoraes/wpp.png"/></a></li>
+			<li> <a href="https://www.instagram.com/lumoraesbolos/?igshid=2c7udnwytxq2" target="blank"><img id="wpp" src="Imagens_projeto_LuMoraes/ig.png"/></a></li>
+		</ul>
+	</nav>
+	<h1 id="titulopad">O GOSTINHO CASEIRO</h1>
+	</header>
+	<section id="lateral1">
+		<h1 id="titulola">FAÇA SEU PEDIDO AGORA MESMO</h1>
+		<h3 id="subtla">*Na escolha do tipo vulcão, você pode escolher duas coberturas*</h3>
+		<form method="get" id="fpedido">
+			<fieldset id="fs">
+				<legend id="titulop">Escolha a forma:</legend>
+				<label for="cforma">
+				<select name="forma" id="sforma">
+					<optgroup label="Forma">
+						<option value=""></option>
+						<option value="Tradicional">Tradicional (Afogadinho ou Vulcão)</option>
+						<option value="Muralha">Muralha</option>
+						<option value="Piscininha">Piscininha</option>
+						<option value="Coração">Coração</option>
+						<option value="Espiral">Espiral</option>
+					</optgroup>	
+				</select>
+			</fieldset>
+			<fieldset id="fs">
+				<legend id="titulop">Escolha a massa:</legend>
+				<select name="Massa" id="smassa">
+					<optgroup label="Massa">
+						<option value=""></option>
+						<option value="Amanteigado">Amanteigado</option>
+						<option value="Baunilha">Baunilha</option>
+						<option value="Chocolate">Chocolate</option>
+						<option value="Laranja">Laranja</option>
+						<option value="Limão">Limão</option>
+						<option value="Maracujá">Maracujá</option>
+					</optgroup>
+				</select>
+			</fieldset>
+			<fieldset id="fs">
+				<legend id="titulop">Escolha o tamanho</legend>
+				<select name="tamanho" id="stamanho">
+					<optgroup label="Tamanho">
+						<option value=""></option>
+						<option value="pequeno">Pequeno (15 pessoas)</option>
+						<option value="medio">Médio (20 pessoas)</option>
+						<option value="grande">Grande (25 pessoas)</option>
+					</optgroup>
+				</select>
+			</fieldset>
+				<fieldset id="fs">
+					<legend id="titulop">Escolha a cobertura</legend>
+					<select name="cobertura" id="scobertura">
+						<optgroup label="Cobertura">
+							<option value=""></option>
+							<option value="ninho">Ninho</option>
+							<option value="chocolate">Chocolate</option>
+							<option value="doce de leite">Doce de Leite</option>
+							<option value="brigadeiro">Brigadeiro</option>
+							<option value="castanha">Castanha</option>
+							<option value="morango">Morango</option>
+							<option value="nutella">Nutella</option>
+							<option value="oreo">Oreo</option>
+						</optgroup>	
+					</select>
+				</fieldset>
+		</form>
+	</section>
+	<aside id="lateral2">
+		<h1>PREÇO TOTAL</h1>
+		<input type="button" value="Calcular preço" onclick="calcp()" id="bot"></input>
+		<div id="prec">
+			 Valor do pedido:
+
+		</div>	
+	</aside>
+	 <footer id="rodape">
+            <p>
+            <br>&copy; Copyright 2021 - by Juan Augusto <br>
+            <a href="https://www.linkedin.com/in/juan-soares-881877177/" target="blank">LinkedIn</a> | 
+            <a href="https://www.youtube.com/channel/UCO_mBpadEe467FAJjNQWD1g" target="blank">YouTube</a></p>
+            <img id="roda" src="Imagens_projeto_LuMoraes/logo2.png"/>
+	</footer>
+	<script src="preco.js"></script>
+</div>
+</body>
+</html>
